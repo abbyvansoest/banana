@@ -12,7 +12,7 @@ export default class banana extends React.Component {
     this.state = { imgSource: null, ocrResult: null };
   }
 
-  selectPhoto(){
+  selectPhoto() {
     const options = {
       quality: 1.0,
       maxWidth: 500,
